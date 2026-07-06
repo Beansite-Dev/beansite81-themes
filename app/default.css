@@ -9,52 +9,52 @@
   initial-value: #fff;
 }
 
-.Window {
+.custom .Window {
   background: rgba(255, 255, 255, 0.44) !important;
   backdrop-filter: blur(10px) !important;
   border: 1px rgba(149, 149, 149, 0.58) solid !important;
 }
-.Window .WinContents {
+.custom .Window .WinContents {
   background: white !important;
   border: 1px rgba(149, 149, 149, 0.58) solid !important;
 }
-.Window .Title {
+.custom .Window .Title {
   color: black !important;
 }
-.Window .Button {
+.custom .Window .Button {
   background: transparent !important;
   color: black !important;
 }
-.Window .Button.x {
+.custom .Window .Button.x {
   background: #c75050 !important;
   width: 40px !important;
   color: #fff !important;
 }
-.Window .Button:hover {
+.custom .Window .Button:hover {
   background: #0d73d1 !important;
   color: #fff !important;
 }
-.Window .Button:hover.x {
+.custom .Window .Button:hover.x {
   background: #c52020 !important;
 }
 
-#Taskbar {
+.custom #Taskbar {
   background: rgba(255, 255, 255, 0.44) !important;
   backdrop-filter: blur(10px) !important;
   border: 1px rgba(149, 149, 149, 0.58) solid !important;
 }
-#Taskbar .item .preview {
+.custom #Taskbar .item .preview {
   background: rgba(255, 255, 255, 0.84) !important;
   border: 1px rgba(149, 149, 149, 0.58) solid !important;
 }
-#Taskbar .Start {
+.custom #Taskbar .Start {
   filter: drop-shadow(0 0 5px rgba(0, 0, 0, 0.6666666667)) !important;
 }
-#Taskbar .Start:hover {
+.custom #Taskbar .Start:hover {
   background-color: #240763 !important;
   filter: drop-shadow(0 0 5px rgba(0, 0, 0, 0)) !important;
 }
-#Taskbar .Start:hover .icon {
+.custom #Taskbar .Start:hover .icon {
   background-size: 400% !important;
   animation: slide linear 5s !important;
   --c1: #5817e4 !important;
@@ -68,10 +68,10 @@
     background-position-x: 100%;
   }
 }
-#Taskbar .Start {
+.custom #Taskbar .Start {
   transition: 0.35s !important;
 }
-#Taskbar .Start .icon {
+.custom #Taskbar .Start .icon {
   background-color: #fff !important;
   transition: --c1 0.35s, --c2 0.35s, background-color 0.35s !important;
   background: linear-gradient(to right, var(--c1) 25%, var(--c2) 30%, var(--c1) 35%) !important;
@@ -84,15 +84,15 @@
   animation-delay: 1s !important;
 }
 
-#StartMenu {
+.custom #StartMenu {
   background-color: #240763 !important;
 }
 
-.Dialog {
+.custom .Dialog {
   background: rgba(255, 255, 255, 0.84) !important;
   border: 1px rgba(149, 149, 149, 0.58) solid !important;
 }
-.Dialog .ContentWrapper {
+.custom .Dialog .ContentWrapper {
   background: #ffffff !important;
   border: 1px rgba(149, 149, 149, 0.58) solid !important;
 }
